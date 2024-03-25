@@ -45,3 +45,10 @@ section {
     /*flex-direction: column;*/
 
 }
+
+img:hover {
+    border-radius: 10rem;
+    transition: 0.05s;
+    border: 1rem solid rgb(0, 0, 0);
+
+}
