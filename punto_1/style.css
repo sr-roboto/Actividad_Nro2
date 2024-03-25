@@ -8,25 +8,33 @@ html {
     font-weight: 100;
     text-align: center;
     text-justify: distribute;
+    
 }
-
 body {
     margin: 0;
-    background-color: rgb(161, 6, 6);
+    background-color: rgb(255, 0, 0);
     background-blend-mode: darken;
 }
 
 img {
     width: 300px;
     height: 300px;
-    padding:3px;
+    margin: 1em;
+    padding:0;
+    border-radius: 0.5px;
+    border-style: solid;
+    border-color: black;
 }
 
 article {
     margin: 2em;
     background: rgb(212, 212, 210);
     border-style: solid;
-    border-color: rgb(105, 7, 7);
+    border-color: rgb(46, 45, 45);
+    box-shadow: 10px 5px 5px black;
+    box-shadow:
+    3px 3px rgb(22, 21, 21),
+    0.5em 1em 1em rgb(117, 117, 115) inset;
 }
 
 section {
