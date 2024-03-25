@@ -1,0 +1,39 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+.recompensa {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    text-justify: distribute;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(161, 6, 6);
+    background-blend-mode: darken;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    padding:3px;
+}
+
+article {
+    margin: 2em;
+    background: rgb(212, 212, 210);
+    border-style: solid;
+    border-color: rgb(105, 7, 7);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /*flex-direction: column;*/
+
+}
