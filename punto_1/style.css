@@ -12,9 +12,9 @@ html {
 }
 body {
     margin: 0;
-    background-image:url("https://vectorseek.com/wp-content/uploads/2023/06/One-Piece-Icon-Vecctor-01.jpg");
-    background-size: 10%;
     background-color: black;
+    background-image:url("https://i.pinimg.com/originals/47/9b/f3/479bf37a046c21e20a3e1d47eb935cdf.jpg");
+    background-size: 10rem;
 }
 
 img {
@@ -22,18 +22,19 @@ img {
     height: 300px;
     margin: 1em;
     padding:0;
+    border-style: ridge;
+    border-color: rgba(175, 103, 10, 0.705);
+    border-width: 1rem;
+    /*
     border: 0.5rem ridge gold;
+    */
 }
 
 article {
     margin: 2em;
     background: rgb(190, 190, 102);
-    border-style: solid;
-    border-color: rgb(46, 45, 45);
-    box-shadow: 10px 5px 5px black;
-    box-shadow:
-    3px 3px rgb(22, 21, 21),
-    0.5em 1em 1em rgb(121, 121, 64) inset;
+    box-shadow: 2px 3px 5px black;
+  
 }
 
 section {
@@ -43,9 +44,10 @@ section {
 }
 
 img:hover {
-    border-radius: 10rem;
     transition: 0.30s;
     box-shadow: 0rem 0.4rem 0.5rem black;
-    border: 0,5rem none rgb(255, 217, 0);
-    border-style: ridge ridge ridge;
+    border-color: goldenrod;
+    border-style: ridge;
+    border-width: 1rem;
+    opacity: 0.8;
 }
