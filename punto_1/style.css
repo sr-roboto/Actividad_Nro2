@@ -12,9 +12,11 @@ html {
 }
 body {
     margin: 0;
-    background-color: black;
+    background-image: url("https://i.pinimg.com/originals/3e/80/89/3e80897da2bed8975b7b39e55d2a768d.jpg");
+    /*
     background-image:url("https://i.pinimg.com/originals/47/9b/f3/479bf37a046c21e20a3e1d47eb935cdf.jpg");
-    background-size: 10rem;
+    */
+    background-size:rem;
 }
 
 img {
@@ -33,7 +35,7 @@ img {
 article {
     margin: 2em;
     background: rgb(190, 190, 102);
-    box-shadow: 2px 3px 5px black;
+    box-shadow: 3px 3px 5px black;
   
 }
 
