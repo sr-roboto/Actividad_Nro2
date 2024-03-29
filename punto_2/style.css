@@ -62,7 +62,8 @@ nav {
 
 nav section {
     font-size: 5rem;
-    text-align: center;
+    text-align: center; 
+    
 }
 
 
@@ -107,5 +108,12 @@ footer {
     grid-column: 1 / 11;
     grid-row: 10 / 10;
     margin: 1rem;
+    
+}
+
+audio {
+    border-radius: 1rem;
+    background-color: white;
+    box-sizing: content-box;
     
 }
