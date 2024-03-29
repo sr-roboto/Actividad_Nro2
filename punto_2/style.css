@@ -80,7 +80,7 @@ aside {
     background-size: 35rem;
     background-image: url("img/rockingwithlights\(23\).png");
     border: 0.2rem solid black;
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(179, 179, 179);
     grid-column: 8 / 11;
     grid-row: 3 / 10;
     margin: 1rem;
@@ -97,7 +97,7 @@ footer {
     border: 0.2rem solid black;
     background-image: url("img/b4ba37a163b141a839f6a1b217b791be.gif");
     background-size: 4rem;
-    background-color: rgb(214, 212, 212);
+    background-color: rgb(199, 199, 199);
     grid-column: 1 / 11;
     grid-row: 10 / 10;
     margin: 1rem;
