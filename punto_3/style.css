@@ -31,6 +31,7 @@ body {
 }
 
 .main_nav ul li {
+    padding: 1rem;
     color: white;
     font-size: xx-large;
     font-weight: 900;
@@ -55,8 +56,10 @@ body {
 }
 
 .widget input[type="text"] {
+    font-size: 1rem;
     padding: 2rem 2rem ;
-    border-radius: 5px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     background-color: #ffffff;
 }
 
@@ -65,9 +68,8 @@ body {
     font-weight: 700;
     font-family: "Roboto", sans-serif;
     padding: 2rem 2rem;
-    box-shadow: 0rem 0.0rem 1rem rgba(0, 0, 0, 0.699) inset;
-    border-top-right-radius: 10rem;
-    border-bottom-right-radius:  10rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     cursor: pointer;
 }
 
@@ -90,7 +92,7 @@ body {
 .header_container {
     grid-column: 3 / 19;
     grid-row:1 / 4;
-    background-color: rgb(2, 154, 224);
+    background-color: rgba(2, 154, 224, 0.199);
 
 }
 
@@ -111,7 +113,7 @@ body {
 .container main {
     grid-column: 3 / 14;
     grid-row: 4 / 19;
-    background-color: rgb(204, 192, 192);
+    background-color: rgba(204, 192, 192, 0.199);
 
 }
 
@@ -127,7 +129,7 @@ body {
 .container aside {
     grid-column: 14 / 19;
     grid-row: 4 / 19;
-    background-color: #00ff9d;
+    background-color: rgba(0, 255, 136, 0.199);
 }
 
 .container aside ul li {
@@ -140,6 +142,5 @@ body {
 footer {
     grid-column: 3 / 19;
     grid-row: 19 / 20;
-    background-color: #830975;
+    background-color: rgba(59, 8, 107, 0.199);
 }
-
